@@ -1,0 +1,131 @@
+body{
+    overflow-x: hidden;
+}
+
+.parcours{
+    width: 100%;
+    height: 450vh;
+}
+
+#ctnParcours{
+    height: 100vh;
+    width: 5790px;
+    position: relative;
+    top: 0;
+    display: flex;
+    transition: opacity .4s;
+}
+
+.ctnPhrise1{
+    width: 1950px;
+    background-image: url(./Img/backParcours.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.titleParcours{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 120px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.phrise{
+    position: absolute;
+    background-color: #33E073;
+    height: 15px;
+    border-radius: 15px;
+    width: calc(100% - 200px);
+    margin-left: 150px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: calc(50% + 39px);
+}
+
+.lienPhrise{
+    position: relative;
+    width: 15px;
+    height: 100px;
+    background-color: #33E073;
+    top: -90px;
+    display: inline-block;
+    margin-left: 158px;
+    margin-right: 400px;
+}
+
+.inverse{
+    transform: rotate(180deg);
+}
+
+.bulleInverse{
+    top: 5px;
+}
+
+.bulle{
+    position: absolute;
+    left: -24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    top: 67px;
+    position: relative;
+    transition: all .4s;
+}
+
+.ctnPhrise{
+    width: 300px;
+    height: auto;
+    color: white;
+    background-color: #33e0735c;
+    position: absolute;
+    left: -140px;
+    border-radius: 15px;
+}
+
+.titlePhrise{
+    margin: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.descPhrise{
+    margin: 0px 20px 10px;
+}
+
+.txtBulle{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.ctnExp{
+    background-image: url(./Img/experience.png);
+    height: 100vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+}
+
+.dut{
+    top: -205px;
+}
+
+.l1info{
+    top: -184px;
+}
+
+.bac{
+    top: -162px;
+}

@@ -1,0 +1,188 @@
+.projets{
+    height: 100vh;
+    width: 100%;
+    background-color: #171717;
+    position: relative;
+}
+
+.choixProjet{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    width: fit-content;
+}
+
+.choix{
+    padding: 8px 15px;
+    border: solid 3px white;
+    margin: 15px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all .3s;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.choix:hover{
+    color: #33E073;
+    border-color: #33E073;
+}
+
+.choix1{
+    color: #0ea044;
+    border-color: #0ea044;
+}
+
+.margProj{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 70%;
+}
+
+.projet{
+    width: calc(100% / 3);
+    height: 30vh;
+    display: inline-block;
+}
+
+.ctnProjet{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 320px;
+    height: 180px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.backstud{
+    background-image: url(./Img/studLp.jpg);
+}
+
+.backopti{
+    background-image: url(./Img/optinote.png);
+}
+
+.backmaison{
+    background-image: url(./Img/maison3D.png);
+}
+
+.backmaster{
+    background-image: url(./Img/subway.png);
+}
+
+.backmorp{
+    background-image: url(./Img/morpion.png);
+}
+
+.backtchat{
+    background-image: url(./Img/portfolio.png);
+}
+
+.filtreProjet{
+    width: 100%;
+    height: 100%;
+    background-color: #000000d6;
+    opacity: 0;
+    transition: opacity .3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.filtreProjet:hover{
+    opacity: 1;
+}
+
+.ctnMore{
+    width: 70%;
+    margin: auto;
+    margin-top: 15%;
+    transform: scale(.8);
+    opacity: .4;
+    transition: all .2s;
+    transition-delay: .15s;
+}
+
+.loop{
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+}
+
+.ico{
+    font-size: 30px;
+    color: white;
+    margin: auto;
+    position: absolute;
+    margin: auto;
+    transform: rotate(315deg);
+}
+
+.git{
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+}
+
+.ctnIc{
+    width: 30px;
+    height: 30px;
+    border: solid 4px #33E073;
+    padding: 5px;
+    transform: rotate(45deg);
+    margin: auto;
+    opacity: 0;
+    transition: opacity .5s, background .3s;
+    cursor: pointer;
+}
+
+.imgGit{
+    background-image: url("./Img/github.png");
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(315deg);
+}
+
+.botFiltre{
+    background-color: #33e0738c;
+    color: white;
+    opacity: 0;
+    position: absolute;
+    width: 120%;
+    height: 40%;
+    padding: 8px 8px 8px 70px;
+    font-size: 20px;
+    bottom: -50px;
+}
+
+.filtreProjet:hover .botFiltre{
+    opacity: 1;
+    left: -42px;
+    bottom: -33px;
+    transform: rotate(5deg);
+    transition: all .4s;
+}
+
+.filtreProjet:hover .txtBotFiltre{
+    transform: rotate(-5deg);
+}
+
+.filtreProjet:hover .ctnMore{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.filtreProjet:hover .ctnIc{
+    opacity: 1;
+}
+
+.ctnIc:hover{
+    background-color: #5eeab09e;
+}

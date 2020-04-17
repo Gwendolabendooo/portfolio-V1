@@ -1,0 +1,256 @@
+#propos{
+    height: 100vh;
+    background-color: #222222;
+    display: flex;
+}
+
+.ctnPropos{
+    width: 65%;
+    height: 100%;
+    background-color: #141414;
+}
+
+.backTitlePropos{
+    text-align: center;
+    color: #33E073;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+}
+
+.titlePropos{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    transform: translate(-50%, 10px);
+    left: 50%;
+}
+
+.backDescPropos{
+    position: relative;
+    color: white;
+    font-size: 17px;
+    width: 75%;
+    margin: auto;
+    line-height: 1.7em;
+    top: 350px;
+}
+
+.textPropos{
+    position: absolute;
+}
+
+.textPropos2{
+    top: 83px;
+}
+
+.textPropos3{
+    top: 195px;
+}
+
+.formesPropos{
+    width: 75%;
+    top: 250px;
+    margin: auto;
+    position: relative;
+    transition: all 1s;
+    transform: scale(0.1);
+}
+
+.losange{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 50%;
+}
+
+.los1{
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    transform: rotate(45deg) translate(-50px, 0px);
+}
+
+.los2{
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg) translate(-29px, 0px);
+}
+
+.losLeft{
+    left: 25%;
+}
+
+.losRight{
+    left: 75%;
+}
+
+.ellipse{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    width: 130px;
+    top: 27px;
+    left: -30px;
+    height: 16px;
+}
+
+.ellipseLeft{
+    left: 100px;
+    display: none;
+}
+
+.trait{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: calc(50% - 1px);
+    width: 100%;
+    height: 2px;
+}
+
+.carre{
+    background-color: #000000bd;
+    position: absolute;
+    transition: all 1s;
+}
+.c1{
+    width: 240px;
+    height: 240px;
+    left: 0%;
+    bottom: -88%;
+    transform: rotate(228deg);
+}
+
+.c2{
+    width: 200px;
+    height: 200px;
+    left: 51%;
+    bottom: -49%;
+    transform: rotate(43deg);
+}
+
+.c3{
+    width: 140px;
+    height: 140px;
+    left: 16%;
+    bottom: -62%;
+    transform: rotate(110deg);
+}
+
+.c4{
+    width: 250px;
+    height: 250px;
+    left: 32%;
+    bottom: -77%;
+    transform: rotate(244deg);
+}
+
+.c5{
+    width: 180px;
+    height: 180px;
+    left: 44%;
+    bottom: -79%;
+    transform: rotate(274deg);
+}
+
+.c6{
+    width: 210px;
+    height: 210px;
+    left: 13%;
+    bottom: -83%;
+    transform: rotate(8deg);
+}
+
+.c7{
+    width: 250px;
+    height: 250px;
+    left: 34%;
+    bottom: -70%;
+    transform: rotate(81deg);
+}
+
+.bouton {
+    border: solid 3px #33E073;
+    background-color: #33e07347;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .5s;
+    margin-left: 15px;
+}
+
+.bouton:hover { 
+    background-color: #0b9d41;
+}
+
+.presentation{
+    width: 35%;
+    height: 100%;
+    background-color: #080808;
+    position: relative;
+}
+
+.profil{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: calc(50% + 34px);
+    width: 70%;
+    height: 75%;
+    position: relative;
+    text-align: center
+}
+
+.pp{
+    width: 100px;
+    height: 100px;
+    background-image: url(./Img/pp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 50px);
+}
+
+.ctnProfil{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 75px);
+    top: 75px;
+    background-color: #ffffff05;
+    border-radius: 25px;
+    box-shadow: 8px 8px 2px 3px #000000;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.profilTxt {
+    display: flex;
+    padding: 10px;
+    margin: 14px 15px 7px 25px;
+}
+
+.profilForm{
+    color: white;
+}
+
+.profilResp{
+    color: #ffffff75;
+    margin-left: 20px;
+}
+
+
+@keyframes scaleUp {
+    0% {
+      transform: scale(0.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

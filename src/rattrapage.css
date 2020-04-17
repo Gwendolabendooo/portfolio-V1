@@ -1,0 +1,43 @@
+.rattrapage{
+    height: 40vh;
+    width: 100%;
+    background-image: url("./Img/rattrapage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.ctnRattrapage{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.CtnMonCV{
+    width: 50%;
+}
+
+.CtnMecontacter{
+    width: 50%;
+}
+
+.bouton2{
+    border: solid 3px #33E073;
+    background-color: #33e07347;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .5s;
+    color: white;
+}
+
+.bouton2:hover{
+    background-color: #0b9d41;
+}
