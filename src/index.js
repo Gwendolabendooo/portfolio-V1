@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 window.onscroll = function() {
-    scrollBar(), posExp(), colorNav()
+    scrollBar(); posExp(); colorNav();
 };
 
 var c1 = 0;
