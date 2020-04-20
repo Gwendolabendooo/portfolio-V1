@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-
 class preloader extends React.Component {  
     render() {
         library.add(
