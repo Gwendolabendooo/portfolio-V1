@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 
 class preloader extends React.Component {  
     render() {
-        library.add(
-            faSearch
-        )
-
         return (
             <div id="loading">
                 <div id="loading-center">
