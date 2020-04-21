@@ -1,13 +1,12 @@
 #propos{
     height: 100vh;
-    background-color: #222222;
+    background-color: #000;
     display: flex;
 }
 
 .ctnPropos{
     width: 65%;
     height: 100%;
-    background-color: #141414;
 }
 
 .backTitlePropos{
@@ -115,7 +114,7 @@
 }
 
 .carre{
-    background-color: #000000bd;
+    background-color: rgba(34, 34, 34, 0.74);
     position: absolute;
     transition: all 1s;
 }
@@ -192,7 +191,6 @@
 .presentation{
     width: 35%;
     height: 100%;
-    background-color: #080808;
     position: relative;
 }
 
@@ -216,6 +214,7 @@
     border-radius: 50%;
     position: absolute;
     left: calc(50% - 50px);
+    z-index: 10;
 }
 
 .ctnProfil{
@@ -223,11 +222,32 @@
     width: 100%;
     height: calc(100% - 75px);
     top: 75px;
-    background-color: #ffffff05;
+    background-color: #161616fa;
     border-radius: 25px;
-    box-shadow: 8px 8px 2px 3px #000000;
+    box-shadow: inset -2px -7px 6px 4px #29292975;
     font-size: 16px;
     font-weight: 900;
+    overflow: hidden;
+}
+
+.dcarre1{
+    width: 110%;
+    height: 101px;
+    left: -170px;
+    transform: rotate(-45deg);
+}
+
+.dcarre{
+    width: 110%;
+    transform: rotate(5deg);
+    height: 90px;
+    left: 0;
+    top: -15px;
+}
+
+.styleMore{
+    position: absolute;
+    background-color: #0000002e;
 }
 
 .profilTxt {
