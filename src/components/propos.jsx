@@ -82,6 +82,8 @@ class propos extends React.Component {
                     <div className="profil">
                         <div className="pp"></div>
                         <div className="ctnProfil">
+                            <div className="styleMore dcarre1"></div>
+                            <div className="styleMore dcarre"></div>
                             <ProfilTemp title="Nom" desc="Le Floch"></ProfilTemp>
                             <ProfilTemp title="Prénom" desc="Gwendal"></ProfilTemp>
                             <ProfilTemp title="Âge" desc="19 ans"></ProfilTemp>
