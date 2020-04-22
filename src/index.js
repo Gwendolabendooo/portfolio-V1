@@ -46,6 +46,7 @@ function posExp(){
         defillement();
     }else if (htMin > htActuelle) {
         document.querySelector("div.ctnParcours").style.position = "relative";
+        document.querySelector("div.ctnParcours").style.left = 0 + "px";
     }else if (htExp <= htActuelle) {
         document.querySelector("div.ctnParcours").style.position = "relative";
         document.querySelector("div.ctnParcours").style.top = document.querySelector("div.experience").offsetTop - document.querySelector("body > div.parcours").offsetTop + "px";
@@ -57,7 +58,7 @@ function defillement() {
     let htActuelle = document.documentElement.scrollTop;
     let htExp = document.querySelector("body > div.parcours").offsetTop;
 
-    document.querySelector("#ctnParcours").style.left = (htExp - htActuelle) + 'px';
+    document.querySelector("#ctnParcours").style.left = 3 * (htExp - htActuelle) + 'px';
   }
 
 function colorNav() {
