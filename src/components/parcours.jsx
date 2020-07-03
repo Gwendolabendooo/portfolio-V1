@@ -50,9 +50,9 @@ class parcours extends React.Component {
                             Parcours
                         </div>
                         <div className="phrise">
-                            <BlocPhrise class="ctnPhrise dut" title="DUT Informatique" desc="J'ai étudié à l'IUT de Toulouse (Paul Sabatier) dans le département Informatique, j'ai pu acquérir des compétences dans le développement web, la programmation et en gestion de projet." annee="2019 2020"></BlocPhrise>
-                            <BlocInversePhrise class="ctnPhrise inverse l1info" title="L1 informatique" desc="J'ai étudié en licence informatique, à Albi (Champollion) dans le département Informatique, j'ai pu acquérir des compétences dans le développement, plutôt accés python et java." annee="2018 2019"></BlocInversePhrise>
-                            <BlocPhrise class="ctnPhrise bac" title="BAC STI2D" desc="J'ai obtenue mon diplome avec mention au lycée Antoine Bourdelle. J'y ai pu découvrir mon attirence de l'informatique grâce a ces premiers projets." annee="2017 2018"></BlocPhrise>
+                            <BlocPhrise class="ctnPhrise dut" title="DUT Informatique" desc="IUT de Toulouse (Paul Sabatier) dans le département Informatique, j'ai pu acquérir des compétences dans le développement web, la programmation et la gestion de projet." annee="2019 2020"></BlocPhrise>
+                            <BlocInversePhrise class="ctnPhrise inverse l1info" title="L1 informatique" desc="Licence informatique, à Albi (Champollion) dans le département Informatique, j'ai acquéris des compétences dans le développement, plutôt accés python et java." annee="2018 2019"></BlocInversePhrise>
+                            <BlocPhrise class="ctnPhrise bac" title="BAC STI2D" desc="Diplome avec mention au lycée Antoine Bourdelle. J'y ai découvert mon attirence de l'informatique grâce a ces premiers projets." annee="2017 2018"></BlocPhrise>
                         </div>
                     </div>
                     <div className="ctnExp">

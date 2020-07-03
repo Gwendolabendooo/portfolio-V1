@@ -24,6 +24,10 @@ a{
   text-decoration: none;
 }
 
+.blocc{
+  display: block!important;
+}
+
 h1{
   color: white;
   left: 25%;

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class competences extends React.Component {  
-    popinCompetence(){
-        
-    }
     
     render() {
         function Competence(props) {
@@ -19,7 +16,7 @@ class competences extends React.Component {
 
         return (
             <div className="competences" id="competence">
-                <div className="titleCompetences">
+                <div className="titleCompetences2">
                     Compétences
                 </div>
                 <Competence t2="ctnCompetence" type="html img-bulle"></Competence>

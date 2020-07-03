@@ -1,6 +1,8 @@
 #propos{
     height: 100vh;
-    background-color: #000;
+    background-image: url(./Img/backpropos2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
 }
 
@@ -29,10 +31,10 @@
     position: relative;
     color: white;
     font-size: 17px;
-    width: 75%;
+    width: 68%;
     margin: auto;
     line-height: 1.7em;
-    top: 350px;
+    top: 275px;
 }
 
 .textPropos{
@@ -40,11 +42,11 @@
 }
 
 .textPropos2{
-    top: 83px;
+    top: 140px;
 }
 
 .textPropos3{
-    top: 195px;
+    top: 250px;
 }
 
 .formesPropos{
@@ -105,19 +107,39 @@
 
 .trait{
     background-color: white;
-    position: absolute;
     display: flex;
     margin: auto;
+    position: relative;
     top: calc(50% - 1px);
-    width: 100%;
+    width: 550px;
     height: 2px;
+    top: -34px;
 }
 
 .carre{
     background-color: rgba(34, 34, 34, 0.74);
     position: absolute;
     transition: all 1s;
+    display: none;
 }
+
+.carree{
+    background-color: rgba(34, 34, 34, 0.74);
+    transition: all 1s;
+    position: absolute;
+}
+
+.cc1{
+    width: 50px;
+    height: 50px;
+    left: 0%;
+    top: -50px;
+    animation-duration: 9s;
+    animation-name: mario;
+    animation-delay: .3s;
+    animation-iteration-count: infinite;
+}
+
 .c1{
     width: 240px;
     height: 240px;
@@ -177,6 +199,7 @@
 .bouton {
     border: solid 3px #33E073;
     background-color: #33e07347;
+    color: white;
     padding: 10px;
     cursor: pointer;
     text-decoration: none;
@@ -273,4 +296,139 @@
     100% {
       transform: scale(1);
     }
+  }
+
+  @keyframes mario {
+    0% {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    10% {
+        transform: rotate(90deg);
+        left: 50px;
+      }
+      20% {
+          transform: rotate(180deg);
+          left: 100px;
+      }
+      30% {
+        transform: rotate(270deg);
+        left: 150px;
+      }
+      40% {
+          transform: rotate(360deg);
+          left: 200px;
+      }
+    50% {
+        transform: rotate(450deg);
+        left: 250px;
+    }
+    57% {
+        transform: rotate(540deg);
+        left: 300px;
+      }
+      66% {
+          transform: rotate(630deg);
+          left: 350px;
+        }
+        75% {
+            transform: rotate(720deg);
+            left: 400px;
+        }
+        85% {
+          transform: rotate(810deg);
+          left: 450px;
+        }
+        93% {
+            transform: rotate(900deg);
+            left: 500px;
+            top: -50px;
+        }
+        95% {
+            top: -80px;
+        }
+        100% {
+            transform: rotate(1100deg);
+            left: 590px;
+            top: 70px;
+        }
+  }
+
+  @keyframes portal1 {
+    0%{
+        height: 75px;
+        width: 23px;
+        border-color: #5f0808;
+        background-color: #ff953a9c;
+    }
+    8%{
+        width: 0px;
+        height: 0px; 
+        border-color: transparent;
+        background-color: transparent;
+    }
+    93% {
+      width: 0px;
+      height: 0px;
+      border-color: transparent;
+      background-color: transparent;
+    }
+    100%{
+        height: 75px;
+        width: 23px;
+        border-color: #5f0808;
+        background-color: #ff953a9c;
+    }
+}
+
+@keyframes portal2 {
+    0%{
+        width: 0px;
+        height: 0px; 
+        border-color: #0e1c44;
+        background-color: #074c7d;
+    }
+    4% {
+        width: 23px;
+        height: 75px;
+      }
+    8% {
+      width: 23px;
+      height: 75px;
+    }
+    14%{
+        width: 0px;
+        height: 0px; 
+        border-color: transparent;
+        background-color: transparent;
+    }
+    100%{
+        border-color: transparent;
+        background-color: transparent;
+        height: 0px;
+        width: 0px;
+    }
+}
+
+  .port2{
+    top: -73px;
+    left: -8px;
+    animation-duration: 9s;
+    animation-name: portal2;
+    animation-iteration-count: infinite;
+  }
+  .port1{
+    top: 56px;
+    left: 605px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    animation-duration: 9s;
+    animation-name: portal1;
+    animation-iteration-count: infinite;
+    animation-delay: .3s;
+  }
+  .portail{
+    position: absolute;
+    border-radius: 50%;
   }

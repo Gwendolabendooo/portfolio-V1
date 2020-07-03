@@ -51,8 +51,8 @@ nav {
   }
   
   nav .Alignrubrique a:hover{
-    background-color: #000000;
-    color: #33E073;
+    background-color: #0d0d0d;
+    color: #33E073 !important;
   }
   
   nav .Alignrubrique a{

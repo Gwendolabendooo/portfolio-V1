@@ -6,12 +6,12 @@ class rattrapage extends React.Component {
             <div className="rattrapage">
                 <div className="ctnRattrapage">
                     <div className="CtnMonCV">
-                        <a className="monCV bouton2">
+                        <a className="monCV bouton2" href="https://github.com/Gwendolabendooo/sonsAnimaux/raw/master/CV-Gwendal_Le_Floch.pdf">
                             Consulter mon CV
                         </a>
                     </div>
                     <div className="CtnMecontacter">
-                        <a className="meContacter bouton2">
+                        <a className="meContacter bouton2" href="#contact">
                             Me contacter
                         </a>
                     </div>

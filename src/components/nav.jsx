@@ -24,7 +24,7 @@ class nav extends React.Component {
                 <div className="ctnBandeau">
                     <div className="bandeau">
                         <div className="logo" onClick={this.scrollstart}>
-                            <a href="/" className="width-max" ></a>
+                            <a href="#Head" className="width-max" ></a>
                         </div>
                         <div className="Alignrubrique">
                             <Rubrique lien="#propos" name="À propos" />
@@ -32,7 +32,7 @@ class nav extends React.Component {
                             <Rubrique lien="#competence" name="Compétences" />
                             <Rubrique lien="#projets" name="Projets" />
                             <Rubrique lien="#contact" name="Contact" />
-                            <Rubrique lien="/cv" name="CV" />
+                            <Rubrique lien="https://github.com/Gwendolabendooo/sonsAnimaux/raw/master/CV-Gwendal_Le_Floch.pdf" name="CV" />
                         </div>
                     </div>
                 </div>

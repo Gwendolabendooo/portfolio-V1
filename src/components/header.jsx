@@ -11,7 +11,7 @@ class header extends React.Component {
     
     render() {
         return (
-            <header> 
+            <header id="Head"> 
                 <h1 class="ml5 head">
                     <span class="text-wrapper">
                         <span class="line line1">

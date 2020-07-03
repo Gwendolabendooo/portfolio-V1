@@ -30,7 +30,7 @@ class header extends React.Component {
             <div className="contact" id="contact">
                 <div className="ctnContact">
                     <div className="contactBox sendMsg">
-                        <div className="titleCompetences">
+                        <div className="titleCompetences2">
                             Me contacter
                         </div>
                         <form className="boxForm" action="">
