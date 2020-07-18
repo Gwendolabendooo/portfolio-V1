@@ -152,6 +152,18 @@ function countdown(elem, size) {
     progress();
 }
 
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    document.body.style.backgroundColor = "yellow";
+  } else {
+    document.body.style.backgroundColor = "pink";
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+
 // var precedent = 0;
 // var tier = window.innerHeight / 3;
 

@@ -48,7 +48,7 @@ class Experience extends React.Component {
                     <div className="titleExperience">
                         Expèriences
                     </div>
-                    <div className="phrise">
+                    <div className="phrise ph2">
                         <BlocPhrise class="ctnPhrise kam" title="Kameleoon" desc="J'ai effectuer un stage de 2 mois dans l'entreprise kameleoon. Cette entreprise propose à d'autres entreprises d'améliorer le rendement de leur site web avec des solutions d'A/B testing. Cdiscount en fait d'ailleurs partie." annee="2019"></BlocPhrise>
                         <BlocInversePhrise class="ctnPhrise inverse inst" title="Instant@net" desc="J'ai efféctuer mon premier stage en 3eme dans l'entreprise Instant@net. c'est grâce à cette dernière que j'ai pu découvrir que l'informatique m'attirais." annee="2015"></BlocInversePhrise>
                     </div>

@@ -9,6 +9,14 @@ class nav extends React.Component {
     scrollHeader() {
         window.scrollTo({top : window.innerHeight});
     }
+
+    burgerAnim() {
+        if (window.screen.width < 800){
+            document.querySelector("#nav-icon3").classList.toggle("open");
+            document.querySelector("div.bandeau").classList.toggle("dispar");
+            console.log("okk");
+        }
+    }
     
     render() {
 
@@ -27,12 +35,14 @@ class nav extends React.Component {
                             <a href="#Head" className="width-max" ></a>
                         </div>
                         <div className="Alignrubrique">
-                            <Rubrique lien="#propos" name="À propos" />
-                            <Rubrique lien="#parcours" name="Expérience professionnelle" />
-                            <Rubrique lien="#competence" name="Compétences" />
-                            <Rubrique lien="#projets" name="Projets" />
-                            <Rubrique lien="#contact" name="Contact" />
-                            <Rubrique lien="https://github.com/Gwendolabendooo/sonsAnimaux/raw/master/CV-Gwendal_Le_Floch.pdf" name="CV" />
+                            <a onClick={this.burgerAnim} className=" burger"><div id="nav-icon3"><span className="burgerm"></span><span className="burgerm"></span><span className="burgerm"></span><span className="burgerm"></span></div></a>
+                            <a onClick={this.burgerAnim} href="#Head" className="Rubrique burger"><div className="logo2"></div></a>
+                            <a onClick={this.burgerAnim} href="#propos" className="Rubrique">À propos</a>
+                            <a onClick={this.burgerAnim} href="#parcours" className="Rubrique">Expérience professionnelle</a>
+                            <a onClick={this.burgerAnim} href="#competence" className="Rubrique">Compétences</a>
+                            <a onClick={this.burgerAnim} href="#projets" className="Rubrique">Projets</a>
+                            <a onClick={this.burgerAnim} href="#contact" className="Rubrique">Contact</a>
+                            <a onClick={this.burgerAnim} href="https://github.com/Gwendolabendooo/sonsAnimaux/raw/master/CV-Gwendal_Le_Floch.pdf" className="Rubrique">CV</a>
                         </div>
                     </div>
                 </div>
