@@ -72,15 +72,16 @@ function colorNav() {
     var listHeight = [propos, experience, competence, projet, contact, footer];
 
     for(let i = 1; i < 6; i++){
+        var j = 2 + i;
         if (document.documentElement.scrollTop > listHeight[i - 1] - 10 && document.documentElement.scrollTop <= listHeight[i] - 10) {
-            document.querySelector("div.Alignrubrique > a:nth-child(" + i + ")").style.color = "#33E073";
+            document.querySelector("div.Alignrubrique > a:nth-child(" + j + ")").style.color = "#33E073";
             if (listHeight[i] == listHeight[3] && c1 < 1) {
                 animPadding();
                 animPercent();
                 c1++;
             }
         }else{
-            document.querySelector("div.Alignrubrique > a:nth-child(" + i + ")").style.color = "white";
+            document.querySelector("div.Alignrubrique > a:nth-child(" + j + ")").style.color = "white";
         }
     }
 }
@@ -151,19 +152,6 @@ function countdown(elem, size) {
     }
     progress();
 }
-
-function myFunction(x) {
-  if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "yellow";
-  } else {
-    document.body.style.backgroundColor = "pink";
-  }
-}
-
-var x = window.matchMedia("(max-width: 700px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
-
 // var precedent = 0;
 // var tier = window.innerHeight / 3;
 
