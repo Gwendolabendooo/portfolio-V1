@@ -3,7 +3,7 @@
 header('Content-Type: application/json');
 
 /**
- * connexion à la base de données
+ * connexion à la base de donnée
  */
 try {
     $connexion = new PDO('mysql:host=localhost;dbname=db_api;charset=utf8','root','');
