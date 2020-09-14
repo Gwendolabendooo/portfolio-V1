@@ -71,14 +71,14 @@ header {
   left: 75px;
   color: #CAC7C7;
   width: 374px;
-  font-size: 17px;
+  font-size: 16px;
   animation: apparitionleft 4s;
 }
 
 .quote{
   font-size: 35px;
   position: absolute;
-  top: -23px;
+  top: -34px;
   left: -13px;
   color: #33E073;
 }
@@ -315,8 +315,14 @@ header {
     background-color: black;
     width: 100%;
   }
+  .titleExperience {
+    display: none;
+}
   .logo{
     display: none!important;
+  }
+  .img-env {
+    top: 83px;
   }
   .logo2{
     background-image: url(/static/media/logo.74308ab0.png);
@@ -363,7 +369,7 @@ header {
     left: 0;
     animation: apparitionright 4s;
     width: 390px;
-    font-size: 18px;
+    font-size: 16px;
   }
   #propos{
     display: block;

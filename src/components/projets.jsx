@@ -8,6 +8,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class competences extends React.Component {  
     pop1() {
         document.querySelector("#projets > div.backPopin").classList.toggle("blocc");
+        if (window.fetch) {
+            console.log(4+4);
+        } else {
+            // Faire quelque chose avec XMLHttpRequest?
+        }
     }
 
     pop2() {
@@ -40,6 +45,7 @@ class competences extends React.Component {
             <div className="projets" id="projets">
                                 <div className="backPopin6">
                     <div className="Popin">
+                        <img src="" alt=""/>
                         <FontAwesomeIcon className="cross" onClick={this.pop6} icon={['fas', 'times']} />
                         <div className="popinCtn">
                             <div className="ctnProd">
@@ -185,7 +191,7 @@ class competences extends React.Component {
                                     Stud'LP
                                 </div>
                                 <div className="pkProd">
-                                    Stud’LP est un projet que j’ai réalisé avec un groupe d’étudiant pour la nuit de l’info. 
+                                    Stud’LP est un projet que j’ai réalisé avec un groupe d’étudiants pour la nuit de l’info. 
                                 </div>
                                 <div className="pkProd">
                                     Ce site à pour objectif de regrouper tous les bons plan pour les étudiants en allant des applications astucieuse pour faire des économies, j'usqu'aux aides qu'ils peuvent bénéficier.

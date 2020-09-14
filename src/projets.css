@@ -41,6 +41,25 @@
     background-color: #000000d6;
 }
 
+.anim-apparition{
+    animation: stretch .8s ease;
+    transition: all .8s;
+  }
+  
+  @keyframes stretch {
+    0% {
+      opacity:0;
+    }
+    50% {
+      top: 64%;
+      opacity:.3;
+    }
+    100% {
+      opacity:1;
+      top: 66%;
+    }
+  }
+
 .backPopin6{
     position: fixed;
     left: 0;
@@ -229,6 +248,7 @@
     transform: translate(-50%, -50%);
     left: 50%;
     top: 66%;
+    opacity: 0;
 }
 
 .projet{

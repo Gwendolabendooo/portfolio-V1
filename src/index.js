@@ -30,16 +30,20 @@ function scrollBar(){
 function posExp(){
     let htMin = document.querySelector("div.parcours").offsetTop;
     let htExp = document.querySelector("div.experience").offsetTop;
+    let htProj = document.querySelector("#projets").offsetTop;
+    let widthProj = document.querySelector("#projets").offsetHeight / 4
     let widthExp = document.querySelector("#experience").offsetHeight / 2
     let htActuelle = document.documentElement.scrollTop;
-
     var opacité = 10 * (1 - htActuelle / htExp);
+
     if (htActuelle > htExp - widthExp) {
         document.querySelector("div.ctnParcours").style.opacity = opacité;
     }else{
         document.querySelector("div.ctnParcours").style.opacity = 1;
     }
-    
+    if (htActuelle > htProj - widthProj) {
+        projapp();
+    }
     if (htActuelle >= htMin && htExp > htActuelle){
         document.querySelector("div.ctnParcours").style.position = "fixed";
         document.querySelector("div.ctnParcours").style.top = 0 + "px";
@@ -54,6 +58,16 @@ function posExp(){
     }
 }
 
+function projapp() {
+    let proj1 = document.querySelector("#projets > div.margProj")
+    var proj = [proj1]
+
+    for (let i = 0; i < proj.length; i++) {
+        proj[i].classList.add("anim-apparition");
+        proj[i].style.opacity = 1;
+    }
+}
+
 function defillement() {
     let htActuelle = document.documentElement.scrollTop;
     let htExp = document.querySelector("body > div.parcours").offsetTop;
@@ -64,7 +78,7 @@ function defillement() {
 function colorNav() {
     var propos = document.querySelector("#propos").offsetTop;
     var experience = document.querySelector("body > div.parcours").offsetTop;
-    var competence = document.querySelector("body > div.competences").offsetTop;
+    var competence = document.querySelector("body > div.competences").offsetTop - 200;
     var projet = document.querySelector("body > div.projets").offsetTop;
     var contact = document.querySelector("body > div.contact").offsetTop;
     var footer = document.querySelector("body > footer").offsetTop;

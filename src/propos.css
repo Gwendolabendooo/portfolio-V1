@@ -221,7 +221,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: calc(50% + 34px);
+    top: calc(50% + 70px);
     width: 70%;
     height: 75%;
     position: relative;
@@ -243,12 +243,12 @@
 .ctnProfil{
     position: absolute;
     width: 100%;
-    height: calc(100% - 75px);
     top: 75px;
     background-color: #161616fa;
     border-radius: 25px;
     box-shadow: inset -2px -7px 6px 4px #29292975;
     font-size: 16px;
+    padding-bottom: 15px;
     font-weight: 900;
     overflow: hidden;
 }
