@@ -206,9 +206,17 @@
     margin: auto;
     width: 400px;
     height: 232px;
-    background-image: url("./Img/responsive_web_design.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.prod-stud{
+    background-image: url(./Img/responsive-studlp.png);
+}
+.prod-port{
+    background-image: url(./Img/responsive-portfo.png);
+}
+.prod-maison{
+    background-image: url(./Img/responsive-maison3d.png);
 }
 
 .choixProjet{

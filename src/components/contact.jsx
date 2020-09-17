@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUserCircle, faUser, faUnlockAlt, faEnvelope, faMapMarkerAlt, faMobileAlt} from "@fortawesome/free-solid-svg-icons";
+import { faUserCircle, faUser, faUnlockAlt, faEnvelope, faMapMarkerAlt, faMobileAlt, faBook} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import '../connexion.css'; // Tell webpack that Button.js uses these styles
@@ -75,7 +75,8 @@ class header extends React.Component {
             faUnlockAlt,
             faEnvelope,
             faMapMarkerAlt,
-            faMobileAlt
+            faMobileAlt,
+            faBook
         );
         const MY_API = 'AIzaSyCc3zoz5TZaG3w2oF7IeR-fhxNXi8uywNk'
         let _url = `https://www.google.com/maps/embed/v1/place?key=${MY_API}&q=43.564706, 1.480144`
@@ -93,14 +94,12 @@ class header extends React.Component {
                             Me contacter
                         </div>
                         <form className="boxForm" onSubmit={this.handleSubmit} action="">
-                            <input className="nom np" id="nom" value={this.state.nom} onChange={(e) => this.setState({nom: e.target.value})} type="text" placeholder="Nom" name="nom" />
-                            <input className="prenom np" id="prenom" value={this.state.prenom} onChange={(e) => this.setState({prenom: e.target.value})} type="text" placeholder="Prenom" name="prenom" />
-                            <input className="mail" id="mail" value={this.state.email} onChange={(e) => this.setState({email: e.target.value})} type="text" placeholder="Mail" name="Mail" />
+                            <input className="mail" id="mail" value={this.state.email} onChange={(e) => this.setState({email: e.target.value})} type="text" name="Mail" />
+                            <label for="Mail">Mail</label>
+                            <input className="subject" id="subject" value={this.state.email} onChange={(e) => this.setState({email: e.target.value})} type="text" name="Subject" />
+                            <label for="Subject">Sujet</label>
                             <textarea  name="description" value={this.state.description} onChange={(e) => this.setState({description: e.target.value})} placeholder="Votre message..."/>
                             <input className="send" type="submit" value="Envoyer" />
-                            <FontAwesomeIcon className="img-user icoForm" icon={['fas', 'user']} />
-                            <FontAwesomeIcon className="img-user2 icoForm" icon={['fas', 'user']} />
-                            <FontAwesomeIcon className="icoForm img-env" icon={['fas', 'envelope']} />
                         </form>
                     </div>
                     <div className="contactBox maps">

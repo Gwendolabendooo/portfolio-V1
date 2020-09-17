@@ -52,7 +52,7 @@ class competences extends React.Component {
                                 <div className="anneeProd">
                                     2018
                                 </div>
-                                <div className="prod">
+                                <div className="prod prod-port">
 
                                 </div>
                                 <div className="ctnEtiquette">
@@ -141,7 +141,7 @@ class competences extends React.Component {
                                 <div className="pkProd">
                                     Ce site est le premier que j'ai réalisé avec des communications entre les utilisateur, j'y ai également creer un tchat.
                                 </div>
-                                <a href="https://stud-lp.now.sh/" target="blank" className="bouton2 btnProd">
+                                <a href="https://react-studlp.now.sh/" target="blank" className="bouton2 btnProd">
                                     M'y emmener
                                 </a>
                             </div>
@@ -156,7 +156,7 @@ class competences extends React.Component {
                                 <div className="anneeProd">
                                     2019
                                 </div>
-                                <div className="prod">
+                                <div className="prod prod-stud">
 
                                 </div>
                                 <div className="ctnEtiquette">
@@ -196,7 +196,7 @@ class competences extends React.Component {
                                 <div className="pkProd">
                                     Ce site à pour objectif de regrouper tous les bons plan pour les étudiants en allant des applications astucieuse pour faire des économies, j'usqu'aux aides qu'ils peuvent bénéficier.
                                 </div>
-                                <a href="https://react-studlp.now.sh/" target="blank" className="bouton2 btnProd">
+                                <a href="https://stud-lp.now.sh/" target="blank" className="bouton2 btnProd">
                                     M'y emmener
                                 </a>
                             </div>
@@ -312,7 +312,7 @@ class competences extends React.Component {
                                 <div className="anneeProd">
                                     2019
                                 </div>
-                                <div className="prod">
+                                <div className="prod prod-maison">
 
                                 </div>
                                 <div className="ctnEtiquette">

@@ -17,6 +17,16 @@
     height: 100vh;
 }
 
+.subject{
+    margin-top: 70px;
+}
+label{
+    color: white;
+}
+label::before {
+    transform: translateX(100%);
+  }
+
 .boxForm{
     width: 55%;
     min-width: 410px;
@@ -25,14 +35,21 @@
     position: relative;
 }
 
+.img-sub{
+    top: 77px;
+}
+
 input{
-    padding: 8px 8px 8px 50px;
+    padding: 8px 8px 8px 8px;
     font-size: 15px;
-    background-color: white;
-    color: black;
     font-weight: 700;
-    border-radius: 7px;
-    border: solid 2px black;
+    width: calc(100% - 15px);
+    background-color: #ffffff00;
+    border: none;
+    border-bottom: solid 2px white;
+    border-radius: 0;
+    border-color: white;
+    color: white;
 }
 
 .boxForm{
@@ -58,8 +75,6 @@ input{
 }
 
 .mail{
-    top: 14%;
-    width: calc(100% - 60px);
     position: absolute;
 }
 
@@ -75,7 +90,7 @@ input{
 }
 
 .img-env{
-    top: 80px;
+    top: 8px;
 }
 
 .img-user2{
@@ -87,11 +102,11 @@ textarea{
     color: black;
     width: calc(100% - 31px);
     height: 30%;
-    margin-top: 148px;
     padding: 15px;
     font-size: 14px;
     background-color: white;
     border: solid 2px black;
+    margin-top: 35px;
 }
 
 .send{
