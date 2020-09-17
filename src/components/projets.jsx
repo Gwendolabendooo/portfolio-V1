@@ -196,7 +196,7 @@ class competences extends React.Component {
                                 <div className="pkProd">
                                     Ce site à pour objectif de regrouper tous les bons plan pour les étudiants en allant des applications astucieuse pour faire des économies, j'usqu'aux aides qu'ils peuvent bénéficier.
                                 </div>
-                                <a href="https://react-studlp-seven.vercel.app/" target="blank" className="bouton2 btnProd">
+                                <a href="https://react-studlp.now.sh/" target="blank" className="bouton2 btnProd">
                                     M'y emmener
                                 </a>
                             </div>
