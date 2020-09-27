@@ -1,305 +1,434 @@
-.contact{
+#propos{
     height: 100vh;
-    width: 100%;
+    background-image: url(./Img/backpropos2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    background-color: #141414;
 }
 
-.ctnContact{
-    width: 70%;
-    display: flex;
-    margin: auto;
-    min-width: 1160px;
-}
-
-.contactBox{
-    width: 50%;
-    height: 100vh;
-}
-
-.subject{
-    margin-top: 70px;
-}
-label{
-    color: white;
-}
-label::before {
-    transform: translateX(100%);
-  }
-
-.boxForm{
-    width: 55%;
-    min-width: 410px;
+.ctnPropos{
+    width: 65%;
     height: 100%;
-    margin: auto;
+}
+
+.backTitlePropos{
+    text-align: center;
+    color: #33E073;
+    font-size: 35px;
+    font-weight: 700;
     position: relative;
 }
 
-.img-sub{
-    top: 77px;
+.titlePropos{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    transform: translate(-50%, 10px);
+    left: 50%;
 }
 
-input{
-    padding: 8px 8px 8px 0px;
-    font-size: 15px;
-    font-weight: 700;
-    width: calc(100% - 15px);
-    background-color: #ffffff00;
-    border: none;
-    border-bottom: solid 2px white;
-    border-radius: 0;
-    border-color: white;
+.backDescPropos{
+    position: relative;
     color: white;
-}
-
-.boxForm{
-    width: 50%;
+    font-size: 17px;
+    width: 68%;
     margin: auto;
-    height: calc(100% - 200px);
+    line-height: 1.7em;
+    top: 275px;
 }
 
-.np{
-    width: 30%;
+.textPropos{
+    position: absolute;
+}
+
+.textPropos2{
+    top: 140px;
+}
+
+.textPropos3{
+    top: 250px;
+}
+
+.formesPropos{
+    width: 75%;
+    top: 250px;
     margin: auto;
+    position: relative;
+    transition: all 1s;
+    transform: scale(0.1);
+}
+
+.losange{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 50%;
+}
+
+.los1{
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    transform: rotate(45deg) translate(-50px, 0px);
+}
+
+.los2{
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg) translate(-29px, 0px);
+}
+
+.losLeft{
+    left: 25%;
+}
+
+.losRight{
+    left: 75%;
+}
+
+.ellipse{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    width: 130px;
+    top: 27px;
+    left: -30px;
+    height: 16px;
+}
+
+.ellipseLeft{
+    left: 100px;
+    display: none;
+}
+
+.trait{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: calc(50% - 1px);
+    width: 550px;
+    height: 2px;
+    top: -34px;
+}
+
+.carre{
+    background-color: rgba(34, 34, 34, 0.74);
+    position: absolute;
+    transition: all 1s;
+    display: none;
+}
+
+.carree{
+    background-color: rgba(34, 34, 34, 0.74);
+    transition: all 1s;
     position: absolute;
 }
 
-.nom{
-    left: 0;
-    text-transform: uppercase;
+.cc1{
+    width: 50px;
+    height: 50px;
+    left: 0%;
+    top: -50px;
+    animation-duration: 9s;
+    animation-name: mario;
+    animation-delay: .3s;
+    animation-iteration-count: infinite;
 }
 
-#maillab{
-    position: absolute;
-    top: 8px;
-    transition: all .3s;
+.c1{
+    width: 240px;
+    height: 240px;
+    left: 0%;
+    bottom: -88%;
+    transform: rotate(228deg);
 }
 
-#sublab{
-    position: absolute;
-    top: 78px;
-    left: 0;
-    transition: all .3s;
+.c2{
+    width: 200px;
+    height: 200px;
+    left: 51%;
+    bottom: -49%;
+    transform: rotate(43deg);
 }
 
-.mail:focus~label {
-    transform: translateY(-120%) scale(.75);
+.c3{
+    width: 140px;
+    height: 140px;
+    left: 16%;
+    bottom: -62%;
+    transform: rotate(110deg);
 }
 
-.mail:valid~label {
-    color: rgb(51, 224, 115);
-    transform: translateY(-120%) scale(.75);
+.c4{
+    width: 250px;
+    height: 250px;
+    left: 32%;
+    bottom: -77%;
+    transform: rotate(244deg);
 }
 
-.subject:valid~label {
-    color: rgb(51, 224, 115);
-    transform: translateY(-120%) scale(.75);
+.c5{
+    width: 180px;
+    height: 180px;
+    left: 44%;
+    bottom: -79%;
+    transform: rotate(274deg);
 }
 
-.mail:focus{
-    outline: none;
-    border-bottom: solid 2px;
-    border-color: #33e073;
-    border-width: 3px;
-    transition: all .4s;
+.c6{
+    width: 210px;
+    height: 210px;
+    left: 13%;
+    bottom: -83%;
+    transform: rotate(8deg);
 }
 
-.subject:focus{
-    outline: none;
-    border-bottom: solid 2px;
-    border-color: #33e073;
-    border-width: 3px;
-    transition: all .4s;
+.c7{
+    width: 250px;
+    height: 250px;
+    left: 34%;
+    bottom: -70%;
+    transform: rotate(81deg);
 }
 
-.subject:focus~label {
-    transform: translateY(-120%) scale(.75);
-}
-
-.prenom{
-    right: 0;
-    text-transform: uppercase;
-}
-
-.mail{
-    position: absolute;
-}
-
-.img-user{
-    top: 7px;
-}
-
-.icoForm{
-    color: #313131;
-    font-size: 23px;
-    position: absolute;
-    left: 14px;
-}
-
-.img-env{
-    top: 8px;
-}
-
-.img-user2{
-    left: 58%;
-    top: 7px;
-}
-
-textarea{
-    color: white;
-    width: calc(100% - 31px);
-    height: 30%;
-    padding: 15px;
-    font-size: 14px;
-    background-color: #141414;
-    border: solid 2px white;
-    margin-top: 35px;
-}
-
-.description:focus{
-    outline: none;
-    border-color: #33e073;
-    transition: all .4s;
-}
-
-.send{
+.bouton {
     border: solid 3px #33E073;
     background-color: #33e07347;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: 700;
+    color: white;
+    padding: 10px;
     cursor: pointer;
     text-decoration: none;
     transition: all .5s;
-    color: white;
-    width: 100%;
-    margin-top: 40px;
+    margin-left: 15px;
 }
 
-.send:hover{
+.bouton:hover { 
     background-color: #0b9d41;
 }
 
-.ctnBox{
-    width: 450px;
-    margin: auto;
+.presentation{
+    width: 35%;
     height: 100%;
-    padding-top: 100px;
-    color: #656565;
+    position: relative;
 }
 
-.info-perso{
-    font-size: 20px;
-}
-
-.ctnIframe{
-    padding-top: 10px;
-    height: 40%;
-    min-height: 364px;
+.profil{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: calc(50% + 70px);
     width: 70%;
-    min-width: 410px;
+    height: 75%;
+    position: relative;
+    text-align: center
 }
 
-.ico-maps{
-    color: white;
-    font-size: 25px;
-    padding-right: 40px;
-}
-
-/*check*/
-.check {
+.pp{
     width: 100px;
-    display: none;
-    margin: 40px auto 0;
-  }
-  
-  .path {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 0;
-    &.circle {
-      -webkit-animation: dash .9s ease-in-out;
-      animation: dash .9s ease-in-out;
-    }
-    &.line {
-      stroke-dashoffset: 1000;
-      -webkit-animation: dash .9s .35s ease-in-out forwards;
-      animation: dash .9s .35s ease-in-out forwards;
-    }
-    &.check {
-      stroke-dashoffset: -100;
-      -webkit-animation: dash-check .9s .35s ease-in-out forwards;
-      animation: dash-check .9s .35s ease-in-out forwards;
-    }
-  }
-  
-  @-webkit-keyframes dash {
-    0% {
-      stroke-dashoffset: 1000;
-    }
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
-  
-  @keyframes dash {
-    0% {
-      stroke-dashoffset: 1000;
-    }
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
-  
-  @-webkit-keyframes dash-check {
-    0% {
-      stroke-dashoffset: -100;
-    }
-    100% {
-      stroke-dashoffset: 900;
-    }
-  }
-  
-  @keyframes dash-check {
-    0% {
-      stroke-dashoffset: -100;
-    }
-    100% {
-      stroke-dashoffset: 900;
-    }
-  }
-
-  .check{
-    position: fixed;
-    top: calc(50% - 120px);
+    height: 100px;
+    background-image: url(./Img/pp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
     left: calc(50% - 50px);
     z-index: 10;
-    stroke: #33e073;
-  }
-  
-  .info-mail{
-    padding-bottom: 22px;
-    padding-top: 22px;
-  }
+}
 
-  .appartiones{
-    animation-duration: 3s;
-    animation-name: apparitionvalid;
-  }
+.ctnProfil{
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    background-color: #161616fa;
+    border-radius: 25px;
+    box-shadow: inset -2px -7px 6px 4px #29292975;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-weight: 900;
+    overflow: hidden;
+}
 
-  @keyframes apparitionvalid {
+.dcarre1{
+    width: 110%;
+    height: 101px;
+    left: -170px;
+    transform: rotate(-45deg);
+}
+
+.dcarre{
+    width: 110%;
+    transform: rotate(5deg);
+    height: 90px;
+    left: 0;
+    top: -15px;
+}
+
+.styleMore{
+    position: absolute;
+    background-color: #0000002e;
+}
+
+.profilTxt {
+    display: flex;
+    padding: 10px;
+    margin: 14px 15px 7px 25px;
+}
+
+.profilForm{
+    color: white;
+}
+
+.profilResp{
+    color: #ffffff75;
+    margin-left: 20px;
+}
+
+
+@keyframes scaleUp {
     0% {
-      display: block;
-      opacity: 0;
-    }
-    90%{
-      display: block;
+      transform: scale(0.1);
     }
     100% {
-      opacity: 1;
-      display: none;
+      transform: scale(1);
     }
   }
 
-  .info-tel{
-    margin-left: 8px;
+  @keyframes mario {
+    0% {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    10% {
+        transform: rotate(90deg);
+        left: 50px;
+      }
+      20% {
+          transform: rotate(180deg);
+          left: 100px;
+      }
+      30% {
+        transform: rotate(270deg);
+        left: 150px;
+      }
+      40% {
+          transform: rotate(360deg);
+          left: 200px;
+      }
+    50% {
+        transform: rotate(450deg);
+        left: 250px;
+    }
+    57% {
+        transform: rotate(540deg);
+        left: 300px;
+      }
+      66% {
+          transform: rotate(630deg);
+          left: 350px;
+        }
+        75% {
+            transform: rotate(720deg);
+            left: 400px;
+        }
+        85% {
+          transform: rotate(810deg);
+          left: 450px;
+        }
+        93% {
+            transform: rotate(900deg);
+            left: 500px;
+            top: -50px;
+        }
+        95% {
+            top: -80px;
+        }
+        100% {
+            transform: rotate(1100deg);
+            left: 590px;
+            top: 70px;
+        }
+  }
+
+  @keyframes portal1 {
+    0%{
+        height: 75px;
+        width: 23px;
+        border-color: #5f0808;
+        background-color: #ff953a9c;
+    }
+    8%{
+        width: 0px;
+        height: 0px; 
+        border-color: transparent;
+        background-color: transparent;
+    }
+    93% {
+      width: 0px;
+      height: 0px;
+      border-color: transparent;
+      background-color: transparent;
+    }
+    100%{
+        height: 75px;
+        width: 23px;
+        border-color: #5f0808;
+        background-color: #ff953a9c;
+    }
+}
+
+@keyframes portal2 {
+    0%{
+        width: 0px;
+        height: 0px; 
+        border-color: #0e1c44;
+        background-color: #074c7d;
+    }
+    4% {
+        width: 23px;
+        height: 75px;
+      }
+    8% {
+      width: 23px;
+      height: 75px;
+    }
+    14%{
+        width: 0px;
+        height: 0px; 
+        border-color: transparent;
+        background-color: transparent;
+    }
+    100%{
+        border-color: transparent;
+        background-color: transparent;
+        height: 0px;
+        width: 0px;
+    }
+}
+
+  .port2{
+    top: -73px;
+    left: -8px;
+    animation-duration: 9s;
+    animation-name: portal2;
+    animation-iteration-count: infinite;
+  }
+  .port1{
+    top: 56px;
+    left: 605px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    animation-duration: 9s;
+    animation-name: portal1;
+    animation-iteration-count: infinite;
+    animation-delay: .3s;
+  }
+  .portail{
+    position: absolute;
+    border-radius: 50%;
   }
