@@ -40,7 +40,7 @@ label::before {
 }
 
 input{
-    padding: 8px 8px 8px 8px;
+    padding: 8px 8px 8px 0px;
     font-size: 15px;
     font-weight: 700;
     width: calc(100% - 15px);
@@ -67,6 +67,53 @@ input{
 .nom{
     left: 0;
     text-transform: uppercase;
+}
+
+#maillab{
+    position: absolute;
+    top: 8px;
+    transition: all .3s;
+}
+
+#sublab{
+    position: absolute;
+    top: 78px;
+    left: 0;
+    transition: all .3s;
+}
+
+.mail:focus~label {
+    transform: translateY(-120%) scale(.75);
+}
+
+.mail:valid~label {
+    color: rgb(51, 224, 115);
+    transform: translateY(-120%) scale(.75);
+}
+
+.subject:valid~label {
+    color: rgb(51, 224, 115);
+    transform: translateY(-120%) scale(.75);
+}
+
+.mail:focus{
+    outline: none;
+    border-bottom: solid 2px;
+    border-color: #33e073;
+    border-width: 3px;
+    transition: all .4s;
+}
+
+.subject:focus{
+    outline: none;
+    border-bottom: solid 2px;
+    border-color: #33e073;
+    border-width: 3px;
+    transition: all .4s;
+}
+
+.subject:focus~label {
+    transform: translateY(-120%) scale(.75);
 }
 
 .prenom{
@@ -99,14 +146,20 @@ input{
 }
 
 textarea{
-    color: black;
+    color: white;
     width: calc(100% - 31px);
     height: 30%;
     padding: 15px;
     font-size: 14px;
-    background-color: white;
-    border: solid 2px black;
+    background-color: #141414;
+    border: solid 2px white;
     margin-top: 35px;
+}
+
+.description:focus{
+    outline: none;
+    border-color: #33e073;
+    transition: all .4s;
 }
 
 .send{
@@ -136,7 +189,6 @@ textarea{
 }
 
 .info-perso{
-    padding: 10px 0%;
     font-size: 20px;
 }
 
@@ -153,3 +205,101 @@ textarea{
     font-size: 25px;
     padding-right: 40px;
 }
+
+/*check*/
+.check {
+    width: 100px;
+    display: none;
+    margin: 40px auto 0;
+  }
+  
+  .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    &.circle {
+      -webkit-animation: dash .9s ease-in-out;
+      animation: dash .9s ease-in-out;
+    }
+    &.line {
+      stroke-dashoffset: 1000;
+      -webkit-animation: dash .9s .35s ease-in-out forwards;
+      animation: dash .9s .35s ease-in-out forwards;
+    }
+    &.check {
+      stroke-dashoffset: -100;
+      -webkit-animation: dash-check .9s .35s ease-in-out forwards;
+      animation: dash-check .9s .35s ease-in-out forwards;
+    }
+  }
+  
+  @-webkit-keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 1000;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @-webkit-keyframes dash-check {
+    0% {
+      stroke-dashoffset: -100;
+    }
+    100% {
+      stroke-dashoffset: 900;
+    }
+  }
+  
+  @keyframes dash-check {
+    0% {
+      stroke-dashoffset: -100;
+    }
+    100% {
+      stroke-dashoffset: 900;
+    }
+  }
+
+  .check{
+    position: fixed;
+    top: calc(50% - 120px);
+    left: calc(50% - 50px);
+    z-index: 10;
+    stroke: #33e073;
+  }
+  
+  .info-mail{
+    padding-bottom: 22px;
+    padding-top: 22px;
+  }
+
+  .appartiones{
+    animation-duration: 3s;
+    animation-name: apparitionvalid;
+  }
+
+  @keyframes apparitionvalid {
+    0% {
+      display: block;
+      opacity: 0;
+    }
+    90%{
+      display: block;
+    }
+    100% {
+      opacity: 1;
+      display: none;
+    }
+  }
+
+  .info-tel{
+    margin-left: 8px;
+  }
