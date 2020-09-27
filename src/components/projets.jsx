@@ -35,6 +35,12 @@ class competences extends React.Component {
         document.querySelector("#projets > div.backPopin6").classList.toggle("blocc");
     }
 
+    flour (event){
+        // console.log(event.clientX, event.clientY);
+        // document.querySelector("#flour").style.left = event.clientX -25 + "px";
+        // document.querySelector("#flour").style.top = event.clientY -25 + "px";
+    }
+
     render() {
         library.add(
             faSearch,
@@ -42,8 +48,9 @@ class competences extends React.Component {
         )
 
         return (
-            <div className="projets" id="projets">
-                                <div className="backPopin6">
+            <div className="projets" onMouseMove={this.flour} id="projets">
+                {/* <div id="flour"></div> */}
+                <div className="backPopin6">
                     <div className="Popin">
                         <img src="" alt=""/>
                         <FontAwesomeIcon className="cross" onClick={this.pop6} icon={['fas', 'times']} />
@@ -196,7 +203,7 @@ class competences extends React.Component {
                                 <div className="pkProd">
                                     Ce site à pour objectif de regrouper tous les bons plan pour les étudiants en allant des applications astucieuse pour faire des économies, j'usqu'aux aides qu'ils peuvent bénéficier.
                                 </div>
-                                <a href="https://react-studlp.now.sh/" target="blank" className="bouton2 btnProd">
+                                <a href="https://stud-lp.now.sh/" target="blank" className="bouton2 btnProd">
                                     M'y emmener
                                 </a>
                             </div>
