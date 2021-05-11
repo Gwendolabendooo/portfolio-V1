@@ -38,7 +38,7 @@ class propos extends React.Component {
                             Bonjour, je suis étudiant en informatique et j'ai pu effectuer quelques projets présentés ci-dessous. J'ai fait ce site afin de mieux vous présenter mon parcours et de vous présenter ce que j'ai pu réaliser.
                         </div>
                         <div className="textPropos textPropos2">
-                            Je recherche actuellement une alternance sur 1 an dans une entreprise spécialisée web, dans laquelle il serait-possible d'utiliser des langages tel que HTML, CSS et Javascript.
+                            Je recherche actuellement une alternance sur 1 an dans une entreprise spécialisée web, dans laquelle il serait-possible d'utiliser des langages tels que HTML, CSS et Javascript.
                         </div>
                         <div className="textPropos textPropos3">
                             Je vous mets donc à diposition mon CV <a className="bouton" href="https://github.com/Gwendolabendooo/sonsAnimaux/raw/master/CV-Gwendal_Le_Floch.pdf">Telecharger</a>
