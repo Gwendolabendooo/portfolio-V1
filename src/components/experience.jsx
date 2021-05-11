@@ -20,7 +20,7 @@ class Experience extends React.Component {
                                     Kameleoon
                                 </div>
                                 <div className="descPhrise">
-                                    J'ai effectuer un stage de 2 mois dans l'entreprise kameleoon. Cette entreprise propose à d'autres entreprises d'améliorer le rendement de leur site web avec des solutions d'A/B testing. Cdiscount en fait d'ailleurs partie.
+                                    J'ai effectué un stage de 2 mois dans l'entreprise Kameleoon. Cette entreprise propose à d'autres entreprises d'améliorer le rendement de leur site web avec des solutions d'A/B testing. Cdiscount en fait d'ailleurs partie.
                                 </div>
                             </div>
                             <div className="bulle">
@@ -35,7 +35,7 @@ class Experience extends React.Component {
                                     Instant@net
                                 </div>
                                 <div className="descPhrise">
-                                    J'ai efféctuer mon premier stage en 3eme dans l'entreprise Instant@net. c'est grâce à cette dernière que j'ai pu découvrir que l'informatique m'attirais.
+                                    J'ai efféctué mon premier stage en 3eme dans l'entreprise Instant@net. c'est grâce à cette dernière que j'ai pu découvrir que l'informatique m'attirait.
                                 </div>
                             </div>
                             <div className="bulle inverse">
