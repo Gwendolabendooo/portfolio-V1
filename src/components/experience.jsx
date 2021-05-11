@@ -35,7 +35,7 @@ class Experience extends React.Component {
                                     Instant@net
                                 </div>
                                 <div className="descPhrise">
-                                    J'ai efféctué mon premier stage en 3eme dans l'entreprise Instant@net. c'est grâce à cette dernière que j'ai pu découvrir que l'informatique m'attirait.
+                                    J'ai efféctué mon premier stage en 3eme dans l'entreprise Instant@net. c'est grâce à cette dernière que j'ai pu découvrir mon attrait pour l'informatique.
                                 </div>
                             </div>
                             <div className="bulle inverse">
