@@ -29,7 +29,7 @@ class header extends React.Component {
                 </h1>
                 <div className="descript">
                     <FontAwesomeIcon className="quote" icon={faQuoteRight} />
-                    Étudiant en deuxième année de DUT informatique, étant curieux et impliqué, je recherche un stage de 2 mois dans le domaine du développement web et mobile.
+                    Étudiant en deuxième année de DUT informatique, étant curieux et impliqué, je recherche une alternance sur 1 an dans le domaine du développement web et mobile.
                 </div>
                 <div className="back-back">
                     <div className="back-arrow" onClick={this.scrollHeader}>
