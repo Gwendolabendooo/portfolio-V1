@@ -52,7 +52,7 @@ class parcours extends React.Component {
                         <div className="phrise">
                             <BlocPhrise class="ctnPhrise dut" title="DUT Informatique" desc="IUT de Toulouse (Paul Sabatier) dans le département Informatique, j'ai pu acquérir des compétences dans le développement web, la programmation et la gestion de projet." annee="2019 2020"></BlocPhrise>
                             <BlocInversePhrise class="ctnPhrise inverse l1info" title="L1 informatique" desc="Licence informatique, à Albi (Champollion) dans le département Informatique, j'ai acquis des compétences dans le développement, plutôt accés python et java." annee="2018 2019"></BlocInversePhrise>
-                            <BlocPhrise class="ctnPhrise bac" title="BAC STI2D" desc="Diplome avec mention au lycée Antoine Bourdelle. J'y ai découvert mon attirence de l'informatique grâce a ces premiers projets." annee="2017 2018"></BlocPhrise>
+                            <BlocPhrise class="ctnPhrise bac" title="BAC STI2D" desc="Diplome avec mention au lycée Antoine Bourdelle. J'y ai découvert mon attrait pour l'informatique grâce à ces premiers projets." annee="2017 2018"></BlocPhrise>
                         </div>
                     </div>
                     <div className="ctnExp">
