@@ -421,9 +421,7 @@ class competences extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <video controls>
-                      <source src="https://github.com/Gwendolabendooo/drop/blob/main/TFC.mp4" type="video/mp4">
-                     </video>
+                    <source src="https://github.com/Gwendolabendooo/drop/blob/main/TFC.mp4" type="video/mp4"/>
                     <div className="projet">
                         <div className="ctnProjet backmaison">
                             <div className="filtreProjet">
